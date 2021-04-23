@@ -53,3 +53,20 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Gemを書き加えると動かない。mysql2のgemが読めない＝bundle installができない？
+# ----Add gems----
+# --web design--
+gem 'bootstrap', '~> 4.5.0'
+gem 'font-awesome-sass'
+gem 'jquery-rails'
+
+# --rails--
+gem 'devise'
+# gem "refile", require: "refile/rails", github: 'manfe/refile'
+# gem "refile-mini_magick"
+gem 'kaminari'
+gem 'rails-i18n'
+
+# --debug--
+gem 'pry-byebug'
